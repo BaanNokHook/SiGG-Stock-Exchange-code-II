@@ -18,6 +18,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\BankMicroservice.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\BankMicroservice.GlobalUsings.g.cs" />
+    <Compile Include="obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\net6.0\BankMicroservice.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\net6.0\BankMicroservice.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include=".vs\BankMicroservice\project-colors.json" />
+    <Content Include="obj\BankMicroservice.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net6.0\BankMicroservice.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="6.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5">
@@ -47,6 +63,62 @@
     <Reference Include="HttpService">
       <HintPath>..\..\HttpService\HttpServiceDll\HttpService\bin\Release\net6.0\HttpService.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include=".vs\BankMicroservice\FileContentIndex\merges\" />
+    <Folder Include="bin\Debug\net6.0\Dlls\ErrorHandling\" />
+    <Folder Include="bin\Debug\net6.0\Dlls\GenericRepository\" />
+    <Folder Include="bin\Debug\net6.0\Dlls\HttpService\" />
+    <Folder Include="bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\" />
+    <Folder Include="bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\" />
+    <Folder Include="bin\Debug\net6.0\runtimes\win-arm64\native\" />
+    <Folder Include="bin\Debug\net6.0\runtimes\win-arm\native\" />
+    <Folder Include="bin\Debug\net6.0\runtimes\win-x64\native\" />
+    <Folder Include="bin\Debug\net6.0\runtimes\win-x86\native\" />
+    <Folder Include="bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\" />
+    <Folder Include="bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\" />
+    <Folder Include="bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Dtos\BankTransaction\" />
+    <Folder Include="Dtos\Bank\Sadad\" />
+    <Folder Include="Dtos\Bank\Vandar\" />
+    <Folder Include="Dtos\Payment\" />
+    <Folder Include="Dtos\ReturnTypes\" />
+    <Folder Include="Model\Entities\" />
+    <Folder Include="obj\Debug\net6.0\refint\" />
+    <Folder Include="obj\Debug\net6.0\ref\" />
+    <Folder Include="obj\Debug\net6.0\staticwebassets\" />
+    <Folder Include="Services\BankTransaction\" />
+    <Folder Include="Services\Bank\" />
+    <Folder Include="Services\Payment\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".vs\BankMicroservice\config\applicationhost.config" />
+    <None Include=".vs\BankMicroservice\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\BankMicroservice\FileContentIndex\0263937e-196b-4672-956c-5587f5bffc85.vsidx" />
+    <None Include=".vs\BankMicroservice\FileContentIndex\6ba847e3-abc9-4a15-b140-218cf2617340.vsidx" />
+    <None Include=".vs\BankMicroservice\FileContentIndex\8979e321-886b-4088-b214-90e4b09d37df.vsidx" />
+    <None Include=".vs\BankMicroservice\FileContentIndex\read.lock" />
+    <None Include=".vs\BankMicroservice\v17\.futdcache.v1" />
+    <None Include=".vs\BankMicroservice\v17\.futdcache.v2" />
+    <None Include=".vs\BankMicroservice\v17\TestStore\0\000.testlog" />
+    <None Include=".vs\BankMicroservice\v17\TestStore\0\testlog.manifest" />
+    <None Include=".vs\ProjectEvaluation\bankmicroservice.metadata.v5.1" />
+    <None Include=".vs\ProjectEvaluation\bankmicroservice.projects.v5.1" />
+    <None Include="bin\Debug\net6.0\ref\BankMicroservice.dll" />
+    <None Include="obj\BankMicroservice.csproj.nuget.g.props" />
+    <None Include="obj\BankMicroservice.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net6.0\apphost.exe" />
+    <None Include="obj\Debug\net6.0\BankMicroservice.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\BankMicroservice.assets.cache" />
+    <None Include="obj\Debug\net6.0\BankMicroservice.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\BankMicroservice.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net6.0\BankMicroservice.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net6.0\BankMicroservice.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\staticwebassets.pack.sentinel" />
   </ItemGroup>
 
 </Project>

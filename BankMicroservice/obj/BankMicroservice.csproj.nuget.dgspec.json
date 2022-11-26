@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Payment_Gateway\\register\\BankMicroservice\\BankMicroservice.csproj": {}
+    "D:\\LaCasaDePapel\\SiGG\\SiGG-Stock-Exchange-code-II\\BankMicroservice\\BankMicroservice.csproj": {}
   },
   "projects": {
-    "D:\\Payment_Gateway\\register\\BankMicroservice\\BankMicroservice.csproj": {
+    "D:\\LaCasaDePapel\\SiGG\\SiGG-Stock-Exchange-code-II\\BankMicroservice\\BankMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Payment_Gateway\\register\\BankMicroservice\\BankMicroservice.csproj",
+        "projectUniqueName": "D:\\LaCasaDePapel\\SiGG\\SiGG-Stock-Exchange-code-II\\BankMicroservice\\BankMicroservice.csproj",
         "projectName": "BankMicroservice",
-        "projectPath": "D:\\Payment_Gateway\\register\\BankMicroservice\\BankMicroservice.csproj",
+        "projectPath": "D:\\LaCasaDePapel\\SiGG\\SiGG-Stock-Exchange-code-II\\BankMicroservice\\BankMicroservice.csproj",
         "packagesPath": "C:\\Users\\pnaja\\.nuget\\packages\\",
-        "outputPath": "D:\\Payment_Gateway\\register\\BankMicroservice\\obj\\",
+        "outputPath": "D:\\LaCasaDePapel\\SiGG\\SiGG-Stock-Exchange-code-II\\BankMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pnaja\\AppData\\Roaming\\NuGet\\NuGet.Config",
