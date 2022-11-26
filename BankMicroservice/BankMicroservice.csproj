@@ -11,9 +11,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controller\**" />
     <Compile Remove="Repository\GenericRepository\**" />
+    <Content Remove="Controller\**" />
     <Content Remove="Repository\GenericRepository\**" />
+    <EmbeddedResource Remove="Controller\**" />
     <EmbeddedResource Remove="Repository\GenericRepository\**" />
+    <None Remove="Controller\**" />
     <None Remove="Repository\GenericRepository\**" />
   </ItemGroup>
 
@@ -79,9 +83,7 @@
     <Folder Include="bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\" />
     <Folder Include="bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\" />
     <Folder Include="bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Dtos\BankTransaction\" />
-    <Folder Include="Dtos\Bank\Sadad\" />
     <Folder Include="Dtos\Bank\Vandar\" />
     <Folder Include="Dtos\Payment\" />
     <Folder Include="Dtos\ReturnTypes\" />
@@ -107,6 +109,7 @@
     <None Include=".vs\BankMicroservice\v17\TestStore\0\testlog.manifest" />
     <None Include=".vs\ProjectEvaluation\bankmicroservice.metadata.v5.1" />
     <None Include=".vs\ProjectEvaluation\bankmicroservice.projects.v5.1" />
+    <None Include="BankMicroservice.sln" />
     <None Include="bin\Debug\net6.0\ref\BankMicroservice.dll" />
     <None Include="obj\BankMicroservice.csproj.nuget.g.props" />
     <None Include="obj\BankMicroservice.csproj.nuget.g.targets" />

@@ -145,3 +145,10 @@ D:\Payment_Gateway\register\BankMicroservice\obj\Debug\net6.0\BankMicroservice.x
 D:\Payment_Gateway\register\BankMicroservice\obj\Debug\net6.0\BankMicroservice.pdb
 D:\Payment_Gateway\register\BankMicroservice\obj\Debug\net6.0\BankMicroservice.genruntimeconfig.cache
 D:\Payment_Gateway\register\BankMicroservice\obj\Debug\net6.0\ref\BankMicroservice.dll
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-II\BankMicroservice\obj\Debug\net6.0\BankMicroservice.csproj.AssemblyReference.cache
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-II\BankMicroservice\obj\Debug\net6.0\BankMicroservice.GeneratedMSBuildEditorConfig.editorconfig
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-II\BankMicroservice\obj\Debug\net6.0\BankMicroservice.AssemblyInfoInputs.cache
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-II\BankMicroservice\obj\Debug\net6.0\BankMicroservice.AssemblyInfo.cs
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-II\BankMicroservice\obj\Debug\net6.0\BankMicroservice.csproj.CoreCompileInputs.cache
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-II\BankMicroservice\obj\Debug\net6.0\BankMicroservice.MvcApplicationPartsAssemblyInfo.cs
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-II\BankMicroservice\obj\Debug\net6.0\BankMicroservice.MvcApplicationPartsAssemblyInfo.cache
