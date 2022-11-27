@@ -35,7 +35,7 @@ namespace BankMicroservice.Services.Bank
         string factorNumber = paymentInput.OrderId;
 
         // send request to vandar
-        VandarPaymentDataDto vandarPaymentData = new(api_key, paymentInput.Price, returnUrl, factorNumber);
+        VandarPaymentDataDto vandarPaymentData = new(api_key, paymentInput.BankMicroservice, returnUrl, factorNumber);
         VandarPaymentResultDto vandarPaymentRequestResult = _httpService.PostAsync<VandarPaymentResultDto>(paymentUrl, vandarPaymentData).Result.Model;
 
         //map vandar result to our payment result

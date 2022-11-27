@@ -67,10 +67,10 @@ namespace BankMicroservice.Services
 
         ReturnModel<PaymentResultDto> returnValue = new();
       
-        string signData = await CreateSadadKeyAsync(paymentInput.OrderId, paymentInput.Price);
+        string signData = await CreateSadadKeyAsync(paymentInput.OrderId, paymentInput.BankMicroservice);
 
         //send request to sadad bank 
-        SadadPaymentDataDto sadadPaymentData = new(signData, paymentInput.Price, _returnURl, paymentInput.OrderId, _merchantId, _terminalId);
+        SadadPaymentDataDto sadadPaymentData = new(signData, paymentInput.BankMicroservice, _returnURl, paymentInput.OrderId, _merchantId, _terminalId);
         SadadPaymentResultDto sadadPaymentRequestResult = _httpService.PostAsync<SadadPaymentResultDto>(_paymentApi, sadadPaymentData).Result.Model;
         if (sadadPaymentRequestResult == null)
         {
@@ -169,7 +169,7 @@ namespace BankMicroservice.Services
 
     #region SignData
     // hash sadad key (sign data)
-    public async Task<string> CreateSadadKeyAsync(string OrderId, int Price)
+    public async Task<string> CreateSadadKeyAsync(string OrderId, int BankMicroservice)
     {
       try
       {
@@ -178,7 +178,7 @@ namespace BankMicroservice.Services
         string merchantKey = _meliBankData.MerchantKey;
         string signData;
 
-        byte[] dataBytes = Encoding.UTF8.GetBytes(string.Format("{0};{1};{2}", terminalId, OrderId, Price));
+        byte[] dataBytes = Encoding.UTF8.GetBytes(string.Format("{0};{1};{2}", terminalId, OrderId, BankMicroservice));
         SymmetricAlgorithm symmetric = SymmetricAlgorithm.Create("TripleDes");
         symmetric.Mode = CipherMode.ECB;
         symmetric.Padding = PaddingMode.PKCS7;

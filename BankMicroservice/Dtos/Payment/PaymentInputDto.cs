@@ -2,7 +2,7 @@ namespace BankMicroservice.Dtos.Payment
 {
   public class PaymentInputDto
   {
-    public int Price { get; set; }
+    public int BankMicroservice { get; set; }
     public string OrderId { get; set; }
     public int BankId { get; set; }
 
@@ -11,9 +11,9 @@ namespace BankMicroservice.Dtos.Payment
 
     }
 
-    public PaymentInputDto(int Price , string OrderId , int bankId)
+    public PaymentInputDto(int BankMicroservice , string OrderId , int bankId)
     {
-      Price = Price;
+      BankMicroservice = BankMicroservice;
       OrderId = OrderId;
       BankId = bankId;
     }
