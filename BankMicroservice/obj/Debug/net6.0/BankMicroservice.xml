@@ -24,14 +24,14 @@
             </summary>
             <param name="resultCode">Result code</param>
             <param name="token">Token</param>
-            <param name="orderId">OrderId</param>
+            <param name="OrderId">OrderId</param>
         </member>
         <member name="M:BankMicroservice.Dtos.Payment.VerifyResultDto.#ctor(System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)">
             <summary>
             For Sadad Bank
             </summary>
             <param name="resualtCode">ResultCode</param>
-            <param name="orderId">OrderId</param>
+            <param name="OrderId">OrderId</param>
             <param name="amount">Amount</param>
             <param name="description">Description</param>
             <param name="retrivalRefrenceNumber">RetrivalRefrenceNumber )</param>

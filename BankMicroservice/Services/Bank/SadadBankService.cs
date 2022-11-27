@@ -83,7 +83,7 @@ namespace BankMicroservice.Services
         PaymentResultDto paymentResult = new(sadadPaymentRequestResult.ResCode, paymentInput.OrderId, sadadPaymentRequestResult.Token, sadadPaymentRequestResult.Description);
 
       //  await _loggerService.CaptureLogAsync(LogLevel.Info, $"Payment Request has sent To Sadad Bank the result is :{JsonConvert.SerializeObject(sadadPaymentRequestResult)} ," +
-           //                                                    $"OrderId : {orderId}");
+           //                                                    $"OrderId : {OrderId}");
 
         returnValue.CreateSuccessModel(paymentResult, "Payment request Result");
         return returnValue;
@@ -169,7 +169,7 @@ namespace BankMicroservice.Services
 
     #region SignData
     // hash sadad key (sign data)
-    public async Task<string> CreateSadadKeyAsync(string orderId, int price)
+    public async Task<string> CreateSadadKeyAsync(string OrderId, int Price)
     {
       try
       {
@@ -178,7 +178,7 @@ namespace BankMicroservice.Services
         string merchantKey = _meliBankData.MerchantKey;
         string signData;
 
-        byte[] dataBytes = Encoding.UTF8.GetBytes(string.Format("{0};{1};{2}", terminalId, orderId, price));
+        byte[] dataBytes = Encoding.UTF8.GetBytes(string.Format("{0};{1};{2}", terminalId, OrderId, Price));
         SymmetricAlgorithm symmetric = SymmetricAlgorithm.Create("TripleDes");
         symmetric.Mode = CipherMode.ECB;
         symmetric.Padding = PaddingMode.PKCS7;

@@ -42,7 +42,7 @@ namespace BankMicroservice.Services.Bank
         PaymentResultDto paymentResult = new(vandarPaymentRequestResult.Status, paymentInput.OrderId, vandarPaymentRequestResult.Token, vandarPaymentRequestResult.Errors);
 
        // await _loggerService.CaptureLogAsync(LogLevel.Info, $"Payment Request has snet To Vandar Bank with result :{JsonConvert.SerializeObject(vandarPaymentRequestResult)} , " +
-                                                          //    $"OrderId : {orderId}");
+                                                          //    $"OrderId : {OrderId}");
 
         returnValue.Data = paymentResult;
         return returnValue;

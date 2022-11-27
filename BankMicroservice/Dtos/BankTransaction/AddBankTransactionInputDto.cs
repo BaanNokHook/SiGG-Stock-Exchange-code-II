@@ -13,10 +13,10 @@ namespace BankMicroservice.Dtos.BankTransaction
     {
 
     }
-    public AddBankTransactionInputDto(int bankId , string orderId , object bankResult)
+    public AddBankTransactionInputDto(int bankId , string OrderId , object bankResult)
     {
       BankId = bankId;
-      OrderId = orderId;
+      OrderId = OrderId;
       TransactionDate = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
       BankResult = bankResult.Serialize();
 

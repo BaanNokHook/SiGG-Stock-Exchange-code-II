@@ -15,10 +15,10 @@ namespace BankMicroservice.Entities
 
     }
 
-    public BankTransactionModel(int bankId, string orderId, string bankResult, bool? isSuccessfull = null)
+    public BankTransactionModel(int bankId, string OrderId, string bankResult, bool? isSuccessfull = null)
     {
       BankId = bankId;
-      OrderId = orderId;
+      OrderId = OrderId;
       IsSuccessfull = isSuccessfull;
       BankResult = bankResult;
       TransactionDate = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();

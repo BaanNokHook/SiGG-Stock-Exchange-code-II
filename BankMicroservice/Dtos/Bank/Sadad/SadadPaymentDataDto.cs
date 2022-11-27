@@ -18,10 +18,10 @@ namespace BankMicroservice.Dtos.Bank.Sadad
         {
 
         }
-        public SadadPaymentDataDto(string key, int amount, string returnUrl, string orderId, string merchantId, string terminalId)
+        public SadadPaymentDataDto(string key, int amount, string returnUrl, string OrderId, string merchantId, string terminalId)
         {
             Amount = amount;
-            OrderId = orderId;
+            OrderId = OrderId;
             MerchantId = merchantId;
             SignData = key;
             ReturnUrl = returnUrl;

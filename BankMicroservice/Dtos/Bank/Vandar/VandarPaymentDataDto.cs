@@ -7,7 +7,7 @@ namespace BankMicroservice.Dtos.Bank.Vandar
         public int Amount { get; set; }
         public string Callback_url { get; set; }
 
-        //orderID
+        //OrderId
         public string FactorNumber { get; set; }
 
         public VandarPaymentDataDto()

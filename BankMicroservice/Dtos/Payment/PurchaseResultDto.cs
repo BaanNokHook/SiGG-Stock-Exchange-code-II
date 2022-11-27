@@ -13,12 +13,12 @@ namespace BankMicroservice.Dtos.Payment
         /// </summary>
         /// <param name="resultCode">Result code</param>
         /// <param name="token">Token</param>
-        /// <param name="orderId">OrderId</param>
-        public PurchaseResultDto(int resultCode, string token, long? orderId)
+        /// <param name="OrderId">OrderId</param>
+        public PurchaseResultDto(int resultCode, string token, long? OrderId)
         {
             ResultCode = resultCode;
             Token = token;
-            OrderId = orderId;
+            OrderId = OrderId;
         }
     }
 }

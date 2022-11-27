@@ -11,10 +11,10 @@ namespace BankMicroservice.Dtos.Payment
 
     }
 
-    public PaymentInputDto(int price , string orderId , int bankId)
+    public PaymentInputDto(int Price , string OrderId , int bankId)
     {
-      Price = price;
-      OrderId = orderId;
+      Price = Price;
+      OrderId = OrderId;
       BankId = bankId;
     }
   }

@@ -23,16 +23,16 @@ namespace BankMicroservice.Dtos.Payment
         /// For Sadad Bank
         /// </summary>
         /// <param name="resualtCode">ResultCode</param>
-        /// <param name="orderId">OrderId</param>
+        /// <param name="OrderId">OrderId</param>
         /// <param name="amount">Amount</param>
         /// <param name="description">Description</param>
         /// <param name="retrivalRefrenceNumber">RetrivalRefrenceNumber )</param>
         /// <param name="traceNumber">TraceNumber</param>
         /// <param name="transactionId"></param>
-        public VerifyResultDto(string resultCode,string token ,string orderId,int amount,string description , string retrivalRefrenceNumber, string traceNumber)
+        public VerifyResultDto(string resultCode,string token ,string OrderId,int amount,string description , string retrivalRefrenceNumber, string traceNumber)
         {
             ResultCode = Convert.ToInt32(resultCode);
-            OrderId = orderId;
+            OrderId = OrderId;
             Amount= amount;
             Description = description;
             RetrivalRefrenceNumber = retrivalRefrenceNumber;

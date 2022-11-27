@@ -12,12 +12,12 @@ namespace BankMicroservice.Dtos.Payment
         {
 
         }
-        public  PaymentResultDto(int resultCode ,string orderId, string token, string description)
+        public  PaymentResultDto(int resultCode ,string OrderId, string token, string description)
         {
             ResultCode = resultCode;
             Token = token;
             Description = description;
-            OrderId = orderId;
+            OrderId = OrderId;
         }
     }
 }
