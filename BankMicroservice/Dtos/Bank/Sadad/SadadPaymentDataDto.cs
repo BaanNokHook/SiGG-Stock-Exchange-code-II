@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BankMicroservice.Dtos.Bank.Sadad
 {
@@ -12,11 +13,14 @@ namespace BankMicroservice.Dtos.Bank.Sadad
         public string SignData { get; set; }  
         public string ReturnUrl { get; set; }
 
+        private string TerminalId { get; set; }
+
         // public string PurchasePage { get; set; }  
         public SadadPaymentDataDto()
         {
 
         }
+
         public SadadPaymentDataDto(string key, int amount, string returnUrl, string orderId, string merchantId, string terminalId)
         {
             Amount = amount;
