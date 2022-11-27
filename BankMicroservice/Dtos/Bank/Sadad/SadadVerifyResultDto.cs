@@ -1,7 +1,3 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
-
-
 namespace BankMicroservice.Dtos.Bank.Sadad
 {
     public class SadadVerifyResultDto

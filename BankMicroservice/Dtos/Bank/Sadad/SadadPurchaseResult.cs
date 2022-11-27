@@ -1,7 +1,3 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
-
-
 namespace GBankMicroservice.Dtos.Bank.Sadad
 {
     public class SadadPurchaseResult

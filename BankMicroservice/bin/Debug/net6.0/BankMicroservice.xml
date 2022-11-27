@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BankMicroservice</name>
+    </assembly>
+    <members>
+        <member name="M:BankMicroservice.Controllers.BankController.PaymentRequest(BankMicroservice.Dtos.Payment.PaymentInputDto)">
+            <summary>
+            Sends A Payment Request to Bank user has sent its id
+            </summary>
+            <param name="paymentInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BankMicroservice.Controllers.BankTransactionController.GetTransaction(System.Int64)">
+            <summary>
+            Gets a bank transaction by id
+            </summary>
+            <param name="transactionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BankMicroservice.Dtos.Payment.PurchaseResultDto.#ctor(System.Int32,System.String,System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            <param name="resultCode">Result code</param>
+            <param name="token">Token</param>
+            <param name="orderId">OrderId</param>
+        </member>
+        <member name="M:BankMicroservice.Dtos.Payment.VerifyResultDto.#ctor(System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            For Sadad Bank
+            </summary>
+            <param name="resualtCode">ResultCode</param>
+            <param name="orderId">OrderId</param>
+            <param name="amount">Amount</param>
+            <param name="description">Description</param>
+            <param name="retrivalRefrenceNumber">RetrivalRefrenceNumber )</param>
+            <param name="traceNumber">TraceNumber</param>
+            <param name="transactionId"></param>
+        </member>
+        <member name="M:BankMicroservice.Dtos.Payment.VerifyResultDto.#ctor(System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int64)">
+            <summary>
+            For Vandar Bank
+            </summary>
+            <param name="status">ResultCode</param>
+            <param name="factorNumber">OrderId</param>
+            <param name="amount">Amount</param>
+            <param name="description">Description</param>
+            <param name="transId">TraceNumber</param>
+        </member>
+    </members>
+</doc>

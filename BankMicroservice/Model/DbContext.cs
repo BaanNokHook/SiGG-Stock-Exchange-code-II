@@ -1,14 +1,14 @@
-﻿using BankMicroservice.Entities;
+using BankMicroservice.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace BankMicroservice.Model
 {
-    public class Context : DbContext
+  public class Context : DbContext
+  {
+    public Context(DbContextOptions options) : base(options)
     {
-        public Context(DbContextOptions options) : base(options)
-        {
 
-        }
-        public DbSet<BankTransactionModel> BankTransactions { get; set; }
     }
+    public DbSet<BankTransactionModel> BankTransactions { get; set; }
+  }
 }
